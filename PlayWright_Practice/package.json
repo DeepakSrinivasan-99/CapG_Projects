@@ -1,0 +1,25 @@
+{
+  "name": "playwright_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "webTests": "npx playwright test --grep @Web",
+    "APITests": "npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.56.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^2.15.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
